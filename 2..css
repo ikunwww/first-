@@ -1,0 +1,59 @@
+.head{
+    width: 100%;
+    height: 200px;
+    background: #015FAF;
+    padding-top: 30px;
+    padding-right: 0px;
+}
+*{
+    margin:0px 0px;
+    padding: 0px 0px;
+}
+.head_logo{
+    padding-left: 140px;
+}
+.f{
+    padding-left: 360px;
+}
+.f li{
+    list-style:none;
+    float:left;
+    width:150px;
+    height:40px;
+    border:silver;
+    text-align:center;
+    line-height:40px;
+    margin-top: 80px;
+    font-family: 黑体;
+    font-size: 23px;
+}
+.f li:hover a{color:black;}
+.f li a{
+    text-decoration:none;
+    color:white;
+
+}
+
+.back{
+    margin-top: 300px;
+    width: 100%;
+    height: 220px;
+    background: #015FAF;
+    text-align:center;
+    padding-top: 90px;
+}
+.pig{
+    color: whitesmoke;
+    line-height: 30px;
+}
+.q{
+    text-align: center;
+    padding-top: 20px;
+    font-family: 楷体;
+    font-size: 20px;
+}
+.t{
+    text-align: center;
+    border-bottom: 2px solid black;
+}
+

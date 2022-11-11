@@ -1,0 +1,144 @@
+.head{
+    width: 100%;
+    height: 200px;
+    background: #015FAF;
+    padding-top: 30px;
+    padding-right: 0px;
+}
+*{
+    margin:0px 0px;
+    padding: 0px 0px;
+}
+.head_logo{
+    padding-left: 140px;
+}
+.f{
+    padding-left: 360px;
+}
+.f li{
+    list-style:none;
+    float:left;
+    width:150px;
+    height:40px;
+    border:silver;
+    text-align:center;
+    line-height:40px;
+    margin-top: 80px;
+    font-family: 黑体;
+    font-size: 23px;
+}
+.f li:hover a{color:black;}
+.f li a{
+    text-decoration:none;
+    color:white;
+
+}
+.photo{
+    overflow:hidden;
+    position: relative;
+}
+.lphoto{
+    width: 4605px;
+    animation: switch 10s ease-out infinite;
+    float: left;
+    overflow:hidden;
+    position: relative;
+}
+.lphoto img {
+    float: left;
+    width: 1535px;
+    height: 500px;
+}
+@keyframes switch {
+    0%, 25% {
+        margin-left: 0px;
+    }
+    35%, 60% {
+        margin-left: -1535px;
+    }
+    70%, 100% {
+        margin-left: -3070px;
+    }
+}
+
+
+.xxll{
+    width: 1535px;
+    height: 500px;
+    margin-top: 20px;
+}
+.m{
+    padding-left: 100px;
+}
+.l{
+    padding-bottom: 30px;
+    width: 750px;
+    white-space:pre;
+}
+.l img{
+    padding-top: 15px;
+    float: left;
+}
+.k{
+    width:910px;
+    white-space:pre;
+    float: left;
+    border-right:2px solid brown;
+    font-family: 楷体;
+    font-size: 20px;
+}
+.q{
+    padding-left: 660px;
+    margin-top: -50px;
+    position: absolute;
+    border-bottom:2px solid mediumslateblue;
+}
+span{
+    float: left;
+    background-color: mediumslateblue;
+    width: 80px;
+    height: 80px;
+    text-align: center;
+    color: white;
+    font-size: 25px;
+}
+.p{
+    padding-left: 850px;
+    margin-top: -483px;
+    padding-bottom: 30px;
+    float: left;
+}
+.p img{
+    float: left;
+}
+.qq{
+    padding-top: 20px;
+    white-space:pre;
+}
+.w{
+    padding-left: 850px;
+    margin-top: -400px;
+    height: 300px;
+}
+.w.li{
+    background: mediumslateblue;
+    line-height: 30px;
+}
+.w li a{
+    text-decoration:none;
+    line-height: 77px;
+}
+.w li:hover a{color:black;}
+.back{
+    margin-top: 300px;
+    width: 100%;
+    height: 220px;
+    background: #015FAF;
+    text-align:center;
+    padding-top: 90px;
+}
+.pig{
+    color: whitesmoke;
+    line-height: 30px;
+}
+
